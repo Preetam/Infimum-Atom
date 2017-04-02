@@ -2,4 +2,4 @@
 
 Infimum theme for Atom
 
-![Screenshot](http://i.imgur.com/Ob5A9jc.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/379404/24584354/0078df3c-1739-11e7-958b-32df60ddb622.png)
