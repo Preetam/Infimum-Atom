@@ -1,6 +1,7 @@
 @import "syntax-variables";
 
 atom-text-editor, :host {
+  padding: 1rem;
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -35,7 +36,7 @@ atom-text-editor, :host {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: #eee;
+    color: @syntax-text-color;
   }
 
   .invisible {
@@ -63,7 +64,7 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .comment {
-  color: #999;
+  color: @syntax-comment-color;
 }
 
 .keyword {
@@ -80,16 +81,16 @@ atom-text-editor .search-results .marker.current-result .region,
 }
 
 .string {
-  color: #333;
+  color: @syntax-text-color;
 }
 
 .entity {
   &.name.tag {
-    color: #555;
+    color: @syntax-text-color;
   }
 
   &.other.attribute-name {
-    color: #555;
+    color: @syntax-text-color;
   }
 }
 
